@@ -2875,7 +2875,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TdX1SbHcY0iavHkUJprf" name="Page-7">
-    <mxGraphModel dx="2992" dy="3274" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2316" dy="2617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2959,6 +2959,109 @@
         </mxCell>
         <mxCell id="_pdeQga6xdv1TMXDIsUV-32" value="trajectory→     trajectory" style="endArrow=classic;html=1;rounded=1;jettySize=auto;orthogonalLoop=1;" edge="1" parent="1" source="_pdeQga6xdv1TMXDIsUV-19" target="_pdeQga6xdv1TMXDIsUV-21">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DzXWZ58_Rij_196fnM0t-1" value="ComputePathToState#1" style="ellipse;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="-500" width="130" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="DzXWZ58_Rij_196fnM0t-2" value="ExecuteTrajectory#1" style="ellipse;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="30" y="-500" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="DzXWZ58_Rij_196fnM0t-3" value="YaskawaGripperCommand#1" style="ellipse;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="167.5" y="-500" width="165" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="DzXWZ58_Rij_196fnM0t-4" value="DetectArucoMarker#1" style="ellipse;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="350" y="-500" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="DzXWZ58_Rij_196fnM0t-5" value="UpdatePose#1" style="ellipse;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="510" y="-500" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="DzXWZ58_Rij_196fnM0t-6" value="UpdateOrientationInPose#1" style="ellipse;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="650" y="-500" width="150" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="DzXWZ58_Rij_196fnM0t-7" value="SetPathConstraints#1" style="ellipse;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="960" y="-500" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="DzXWZ58_Rij_196fnM0t-8" value="ComputePathToPose#1" style="ellipse;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="819" y="-500" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="DzXWZ58_Rij_196fnM0t-9" value="ExecuteTrajectory#2" style="ellipse;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="960" y="-430" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="DzXWZ58_Rij_196fnM0t-10" value="YaskawaGripperCommand#2" style="ellipse;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="775" y="-430" width="160" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="DzXWZ58_Rij_196fnM0t-11" value="ComputePathToState#2" style="ellipse;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="635" y="-430" width="130" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="DzXWZ58_Rij_196fnM0t-12" value="ExecuteTrajectory#3" style="ellipse;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="495" y="-430" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="DzXWZ58_Rij_196fnM0t-13" value="CreatePose#1" style="ellipse;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="355" y="-430" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="DzXWZ58_Rij_196fnM0t-14" value="SetPathConstraints#2" style="ellipse;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="90" y="-465" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="DzXWZ58_Rij_196fnM0t-15" value="ComputePathToPose#2" style="ellipse;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="225" y="-430" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="DzXWZ58_Rij_196fnM0t-16" value="ExecuteTrajectory#4" style="ellipse;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="76" y="-420" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DzXWZ58_Rij_196fnM0t-17" value="YaskawaGripperCommand#3" style="ellipse;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="-430" width="160" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="DzXWZ58_Rij_196fnM0t-18" edge="1" parent="1" source="DzXWZ58_Rij_196fnM0t-1" target="DzXWZ58_Rij_196fnM0t-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DzXWZ58_Rij_196fnM0t-19" edge="1" parent="1" source="DzXWZ58_Rij_196fnM0t-2" target="DzXWZ58_Rij_196fnM0t-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DzXWZ58_Rij_196fnM0t-20" edge="1" parent="1" source="DzXWZ58_Rij_196fnM0t-3" target="DzXWZ58_Rij_196fnM0t-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DzXWZ58_Rij_196fnM0t-21" edge="1" parent="1" source="DzXWZ58_Rij_196fnM0t-4" target="DzXWZ58_Rij_196fnM0t-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DzXWZ58_Rij_196fnM0t-22" edge="1" parent="1" source="DzXWZ58_Rij_196fnM0t-5" target="DzXWZ58_Rij_196fnM0t-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DzXWZ58_Rij_196fnM0t-23" edge="1" parent="1" source="DzXWZ58_Rij_196fnM0t-6" target="DzXWZ58_Rij_196fnM0t-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DzXWZ58_Rij_196fnM0t-24" edge="1" parent="1" source="DzXWZ58_Rij_196fnM0t-8" target="DzXWZ58_Rij_196fnM0t-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DzXWZ58_Rij_196fnM0t-25" edge="1" parent="1" source="DzXWZ58_Rij_196fnM0t-9" target="DzXWZ58_Rij_196fnM0t-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DzXWZ58_Rij_196fnM0t-26" edge="1" parent="1" source="DzXWZ58_Rij_196fnM0t-10" target="DzXWZ58_Rij_196fnM0t-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DzXWZ58_Rij_196fnM0t-27" edge="1" parent="1" source="DzXWZ58_Rij_196fnM0t-11" target="DzXWZ58_Rij_196fnM0t-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DzXWZ58_Rij_196fnM0t-28" edge="1" parent="1" source="DzXWZ58_Rij_196fnM0t-12" target="DzXWZ58_Rij_196fnM0t-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DzXWZ58_Rij_196fnM0t-29" edge="1" parent="1" source="DzXWZ58_Rij_196fnM0t-13" target="DzXWZ58_Rij_196fnM0t-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DzXWZ58_Rij_196fnM0t-30" style="entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DzXWZ58_Rij_196fnM0t-15" target="DzXWZ58_Rij_196fnM0t-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="292.5497474986546" y="-389.347023753171" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DzXWZ58_Rij_196fnM0t-31" edge="1" parent="1" source="DzXWZ58_Rij_196fnM0t-16" target="DzXWZ58_Rij_196fnM0t-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DzXWZ58_Rij_196fnM0t-32" edge="1" parent="1" source="DzXWZ58_Rij_196fnM0t-7" target="DzXWZ58_Rij_196fnM0t-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DzXWZ58_Rij_196fnM0t-33" style="exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="DzXWZ58_Rij_196fnM0t-14" target="DzXWZ58_Rij_196fnM0t-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="217.42640687119274" y="-401.21320343559546" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
