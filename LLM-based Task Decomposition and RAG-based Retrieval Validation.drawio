@@ -2945,13 +2945,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DzXWZ58_Rij_196fnM0t-7" value="SetPathConstraints#1" style="ellipse;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="660.54" y="-26" width="130" height="35" as="geometry" />
+          <mxGeometry x="827" y="6.5" width="130" height="35" as="geometry" />
         </mxCell>
         <mxCell id="DzXWZ58_Rij_196fnM0t-9" value="ExecuteTrajectory#2" style="ellipse;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="873" y="47.24" width="120" height="35" as="geometry" />
+          <mxGeometry x="1000" width="120" height="35" as="geometry" />
         </mxCell>
         <mxCell id="DzXWZ58_Rij_196fnM0t-10" value="YaskawaGripperCommand#2" style="ellipse;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="645.05" y="62.24" width="190" height="35" as="geometry" />
+          <mxGeometry x="810" y="50" width="190" height="35" as="geometry" />
         </mxCell>
         <mxCell id="DzXWZ58_Rij_196fnM0t-14" value="SetPathConstraints#2" style="ellipse;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="345.04999999999995" y="67.24" width="130" height="30" as="geometry" />
@@ -2974,7 +2974,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="uvv0SjXOkO8HnMcPHog6-1" value="" style="group;labelBackgroundColor=none;" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="-119.99999999999999" y="157.71" width="1280" height="59.81" as="geometry" />
+          <mxGeometry x="-121.99999999999999" y="157.71" width="1280" height="59.81" as="geometry" />
         </mxCell>
         <mxCell id="uvv0SjXOkO8HnMcPHog6-19" value="" style="group" vertex="1" connectable="0" parent="uvv0SjXOkO8HnMcPHog6-1">
           <mxGeometry y="-17.710000000000004" width="1050" height="35" as="geometry" />
@@ -3004,6 +3004,14 @@
         </mxCell>
         <mxCell id="_pdeQga6xdv1TMXDIsUV-15" value="YaskawaGripperCommand#2 &lt;b&gt;YaskawaGripperCommand&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=14;fillColor=#e7efff;strokeColor=black;shape=ellipse;fontColor=#172546" vertex="1" parent="uvv0SjXOkO8HnMcPHog6-1">
           <mxGeometry y="18.810000000000002" width="220" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="_pdeQga6xdv1TMXDIsUV-14" value="ExecuteTrajectory#2 &lt;b&gt;ExecuteTrajectory&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=14;fillColor=#e7efff;strokeColor=black;shape=ellipse;fontColor=#172546" vertex="1" parent="uvv0SjXOkO8HnMcPHog6-1">
+          <mxGeometry x="1109" y="-22.840000000000003" width="150" height="45.26" as="geometry" />
+        </mxCell>
+        <mxCell id="_pdeQga6xdv1TMXDIsUV-28" value="trajectory→&amp;nbsp;&lt;div&gt;&amp;nbsp;trajectory&lt;/div&gt;" style="endArrow=classic;html=1;rounded=1;jettySize=auto;orthogonalLoop=1;" edge="1" parent="uvv0SjXOkO8HnMcPHog6-1" source="_pdeQga6xdv1TMXDIsUV-13" target="_pdeQga6xdv1TMXDIsUV-14">
+          <mxGeometry x="-0.3651" y="28" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="uvv0SjXOkO8HnMcPHog6-2" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="-120" y="214" width="410" height="40" as="geometry" />
@@ -3066,7 +3074,7 @@
           <mxGeometry x="682" y="-61" width="170" height="35" as="geometry" />
         </mxCell>
         <mxCell id="DzXWZ58_Rij_196fnM0t-8" value="ComputePathToPose#1" style="ellipse;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="842" y="-35" width="151" height="35" as="geometry" />
+          <mxGeometry x="890" y="-61" width="151" height="35" as="geometry" />
         </mxCell>
         <mxCell id="DzXWZ58_Rij_196fnM0t-18" style="fontSize=14;" edge="1" parent="1" source="DzXWZ58_Rij_196fnM0t-1" target="DzXWZ58_Rij_196fnM0t-2">
           <mxGeometry relative="1" as="geometry" />
@@ -3085,14 +3093,6 @@
         </mxCell>
         <mxCell id="DzXWZ58_Rij_196fnM0t-23" style="fontSize=14;" edge="1" parent="1" source="DzXWZ58_Rij_196fnM0t-6" target="DzXWZ58_Rij_196fnM0t-8">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="_pdeQga6xdv1TMXDIsUV-14" value="ExecuteTrajectory#2 &lt;b&gt;ExecuteTrajectory&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=14;fillColor=#e7efff;strokeColor=black;shape=ellipse;fontColor=#172546" vertex="1" parent="1">
-          <mxGeometry x="843" y="198.74" width="150" height="45.26" as="geometry" />
-        </mxCell>
-        <mxCell id="_pdeQga6xdv1TMXDIsUV-28" value="trajectory→&amp;nbsp;&lt;div&gt;&amp;nbsp;trajectory&lt;/div&gt;" style="endArrow=classic;html=1;rounded=1;jettySize=auto;orthogonalLoop=1;" edge="1" parent="1" source="_pdeQga6xdv1TMXDIsUV-13" target="_pdeQga6xdv1TMXDIsUV-14">
-          <mxGeometry x="-1" y="-46" relative="1" as="geometry">
-            <mxPoint x="-16" y="-22" as="offset" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="DzXWZ58_Rij_196fnM0t-11" value="ComputePathToState#2" style="ellipse;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="645.05" y="9" width="145" height="35" as="geometry" />
@@ -3148,10 +3148,10 @@
           <mxGeometry x="-150" y="263.5" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="uvv0SjXOkO8HnMcPHog6-18" value="YaskawaGripperCommand#3&lt;div&gt;&lt;b&gt;YaskawaGripperCommand&lt;/b&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=14;fillColor=#e7efff;strokeColor=black;shape=ellipse;fontColor=#172546" vertex="1" parent="1">
-          <mxGeometry x="-119.99999999999999" y="294" width="220" height="35" as="geometry" />
+          <mxGeometry x="615.05" y="254" width="220" height="35" as="geometry" />
         </mxCell>
         <mxCell id="uvv0SjXOkO8HnMcPHog6-20" value="7" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;" vertex="1" parent="1">
-          <mxGeometry x="-150" y="301" width="20" height="20" as="geometry" />
+          <mxGeometry x="585.05" y="261" width="20" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
